@@ -57,14 +57,14 @@ body {
 .checkbox,
 .task, 
 .task-add, 
-.task-edit, 
-.task-delete {
+.task-list_task-edit, 
+.task-list_task-delete {
   outline:none;
 }
 
 .task-add, 
-.task-edit, 
-.task-delete {
+.task-list_task-edit, 
+.task-list_task-delete {
   background: none;
   border: 0px;
   color: #888;
@@ -75,8 +75,8 @@ body {
 }
 
 .task-add:hover, 
-.task-edit:hover, 
-.task-delete:hover {
+.task-list_task-edit:hover, 
+.task-list_task-delete:hover {
   color: #3a3a3a;
 }
 
@@ -151,13 +151,13 @@ li > input[type="text"] {
   width: 226px;
 }
 
-.task-delete img {
+.task-list_task-delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.task-delete img:hover {
+.task-list_task-delete img:hover {
   transform: rotateZ(0);
 }
 
