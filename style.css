@@ -21,8 +21,9 @@ body {
 }
 
 @media (max-width:768px) {
-.more-details_container { text-align: center;
-}
+  .more-details_container { 
+    text-align: center;
+  }
 }
 
 .centered-main_page-elem {
