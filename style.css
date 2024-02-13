@@ -5,23 +5,23 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.aaa {
+.more-details_container {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.aaa img {
+.more-details_container img {
   width: 100%;
 }
 
-.aaa .more-info {
+.more-details_container .more-info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.aaa { text-align: center;
+.more-details_container { text-align: center;
 }
 }
 
@@ -138,13 +138,13 @@ li >    input[type="text"] {
   width: 226px
 }
 
-button.delete img {
+button.task-delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-button.delete img:hover {
+button.task-delete img:hover {
   transform: rotateZ(0);
 }
 
