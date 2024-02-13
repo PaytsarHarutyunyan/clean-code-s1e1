@@ -16,7 +16,8 @@ body {
   width: 100%;
 }
 
-.more-details_container .more-info {
+.more-details_container
+.more-info {
   font-family: fantasy, cursive;
 }
 
@@ -47,15 +48,23 @@ body {
   padding: 0px;
 }
 
-#list, .new-list, .title-part {
+#list, 
+.new-list, 
+.title-part {
   list-style:none;
 }
 
-.checkbox, .task, .task-add, .task-edit, .task-delete {
+.checkbox,
+.task, 
+.task-add, 
+.task-edit, 
+.task-delete {
   outline:none;
 }
 
-.task-add, .task-edit, .task-delete {
+.task-add, 
+.task-edit, 
+.task-delete {
   background: none;
   border: 0px;
   color: #888;
@@ -65,7 +74,9 @@ body {
   cursor: pointer;
 }
 
-.task-add:hover, .task-edit:hover, .task-delete:hover {
+.task-add:hover, 
+.task-edit:hover, 
+.task-delete:hover {
   color: #3a3a3a;
 }
 
@@ -111,7 +122,8 @@ label[for="new-task"] {
 
 /* Task list */
 
-#list, .new-list {
+#list, 
+.new-list {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
